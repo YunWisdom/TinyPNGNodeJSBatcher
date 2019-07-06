@@ -1,6 +1,4 @@
-/*
- Creator: AlexQ
- */
+
 var tinify = require("./tinify");
 
 /*
@@ -20,7 +18,12 @@ global.key = [
 	"2yc3X7zUiHmCMorXanoBG8ShI5MoPX0y",
 	"pNEtdDVEH6Dv4Cuk08ptOV3PzzlOsQYF",
 	"meupuAOzUEIEC7mnBAreYnLo8kqSFUcs",
-	"qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J"
+	"qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J",
+	"tMaEahf5V3miIxCJ8vbGNWqWWaxCZ0O5",
+	"UEsOMZzyMFY8qGxNDy35taz66jGjMOPa",
+	"H9gNqUY6s4cv4mcUzZVKgZcOwhsUyIiu",
+	"IC2tc50yT08HGDdMUU9VMPKTC3kJf2zR",
+	"mikSOvXmssAYyt5XrDUHNPuzCjYOyeks"
 ];
 
 //初始化
