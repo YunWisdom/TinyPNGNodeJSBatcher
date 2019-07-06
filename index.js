@@ -10,11 +10,17 @@ var tinify = require("./tinify");
 	压缩数量用完后，会自动切换到第二个key，以此类推。
  */
 global.key = [
-	"第一个key",
-	"第二个key",
-	"第三个key",
-	"第四个key",
-	"第N个key"
+	"yKkuvUVjMvrkNDpbXFZGJueVQqcN5v4W",
+	"QzMvROVPA9oHaWNnikFAyzHaDFhFRMPC",
+	"JQ172FqwZZXL01uK0A8YhE55SLVEEOND",
+	"0KsEUTD02jGbzQVoSqgI3ZlzRTlgcZdo",
+	"8avxBxQrVvEuoCZE4PnmAsNeFsjwqHqU",
+	"asXYjeCybyd4KolJwLbUWm8kaz6Afczk",
+	"w8DkoU0jWo69D8wuhIEaZT1BYDsZzomX",
+	"2yc3X7zUiHmCMorXanoBG8ShI5MoPX0y",
+	"pNEtdDVEH6Dv4Cuk08ptOV3PzzlOsQYF",
+	"meupuAOzUEIEC7mnBAreYnLo8kqSFUcs",
+	"qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J"
 ];
 
 //初始化
