@@ -25,7 +25,10 @@ global.key = [
     "IC2tc50yT08HGDdMUU9VMPKTC3kJf2zR",
     "mikSOvXmssAYyt5XrDUHNPuzCjYOyeks",
     "DLVQrfNzVq8f8Rpm7my4NQHYl1OTTbMF",
-    "C2HlCEVL7pscT6A0SX6c7EFrYKzW4l55"
+    "C2HlCEVL7pscT6A0SX6c7EFrYKzW4l55",
+    "_53YkYKYVHhKZihlAckkBWciYpRtit1P",
+    "2qlmEQxVaDkxzG0h0wkmiPCxnyeVxBi3",
+    ""
 ];
 
 //初始化
