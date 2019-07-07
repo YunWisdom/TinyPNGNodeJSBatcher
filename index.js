@@ -8,21 +8,28 @@ var tinify = require("./tinify");
  * @description	压缩数量用完后，会自动切换到第个key，以此类推。
  */
 global.key = [
-	"yKkuvUVjMvrkNDpbXFZGJueVQqcN5v4W",
-	"QzMvROVPA9oHaWNnikFAyzHaDFhFRMPC",
-	"JQ172FqwZZXL01uK0A8YhE55SLVEEOND",
-	"0KsEUTD02jGbzQVoSqgI3ZlzRTlgcZdo",
-	"8avxBxQrVvEuoCZE4PnmAsNeFsjwqHqU",
-	"asXYjeCybyd4KolJwLbUWm8kaz6Afczk",
-	"w8DkoU0jWo69D8wuhIEaZT1BYDsZzomX",
-	"2yc3X7zUiHmCMorXanoBG8ShI5MoPX0y",
-	"pNEtdDVEH6Dv4Cuk08ptOV3PzzlOsQYF",
-	"meupuAOzUEIEC7mnBAreYnLo8kqSFUcs",
-	"qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J"
+    "yKkuvUVjMvrkNDpbXFZGJueVQqcN5v4W",
+    "QzMvROVPA9oHaWNnikFAyzHaDFhFRMPC",
+    "JQ172FqwZZXL01uK0A8YhE55SLVEEOND",
+    "0KsEUTD02jGbzQVoSqgI3ZlzRTlgcZdo",
+    "8avxBxQrVvEuoCZE4PnmAsNeFsjwqHqU",
+    "asXYjeCybyd4KolJwLbUWm8kaz6Afczk",
+    "w8DkoU0jWo69D8wuhIEaZT1BYDsZzomX",
+    "2yc3X7zUiHmCMorXanoBG8ShI5MoPX0y",
+    "pNEtdDVEH6Dv4Cuk08ptOV3PzzlOsQYF",
+    "meupuAOzUEIEC7mnBAreYnLo8kqSFUcs",
+    "qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J",
+    "tMaEahf5V3miIxCJ8vbGNWqWWaxCZ0O5",
+    "UEsOMZzyMFY8qGxNDy35taz66jGjMOPa",
+    "H9gNqUY6s4cv4mcUzZVKgZcOwhsUyIiu",
+    "IC2tc50yT08HGDdMUU9VMPKTC3kJf2zR",
+    "mikSOvXmssAYyt5XrDUHNPuzCjYOyeks",
+    "DLVQrfNzVq8f8Rpm7my4NQHYl1OTTbMF",
+    "C2HlCEVL7pscT6A0SX6c7EFrYKzW4l55"
 ];
 
 //初始化
 global.keyindex = 0;
 
 //压缩所有指定目录文件到另一个指定目录
-tinify.compressAllFiles('C:/Workspace/Images/','C:/Workspace/OutImages/', ['build'], ['.no.png']);
+tinify.compressAllFiles('C:/Workspace/Images/', 'C:/Workspace/OutImages/', ['build'], ['.no.png']);
