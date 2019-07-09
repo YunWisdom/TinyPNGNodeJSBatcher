@@ -44,7 +44,7 @@ def picIsBig(srcFile):
 ##########################################
 def picIsCompressed(basename , dstFile):
     if selectTableCompressLog(basename , dstFile):
-        print(" images is already compressed which named " + basename + ' or path equals ' + dstFile)
+        #print(" images is already compressed which named " + basename + ' or path equals ' + dstFile)
         return True
     else:
         return False            
@@ -132,13 +132,21 @@ def compressImage(srcPath,dstPath):
             osize = os.path.getsize(srcFile)/1024
 
             if osize > 4096 :
-                dImg=sImg.resize((int(w/1.35),int(h/1.35)),Image.ANTIALIAS)
+                width = w/(compressRatio + 0.25)
+                height = h/(compressRatio + 0.25)
+                dImg=sImg.resize((int(width),int(height)),Image.ANTIALIAS)
             elif osize > 2048 :
-                dImg=sImg.resize((int(w/1.3),int(h/1.3)),Image.ANTIALIAS)
+                width = w/(compressRatio + 0.2)
+                height = h/(compressRatio + 0.2)
+                dImg=sImg.resize((int(width),int(height)),Image.ANTIALIAS)
             elif osize > 1024 :
-                dImg=sImg.resize((int(w/1.2),int(h/1.2)),Image.ANTIALIAS)
+                width = w/(compressRatio + 0.1)
+                height = h/(compressRatio + 0.1)
+                dImg=sImg.resize((int(width),int(height)),Image.ANTIALIAS)
             else:
-                dImg=sImg.resize((int(w/1.1),int(h/1.1)),Image.ANTIALIAS)                                                                                                           
+                width = w/(compressRatio + 0.05)
+                height = h/(compressRatio + 0.05)
+                dImg=sImg.resize((int(w/width),int(h/height)),Image.ANTIALIAS)                                                                                                           
 
             #保存压缩后文件，单位KB        
             dImg.save(dstFile)           
@@ -169,7 +177,9 @@ def compressImage(srcPath,dstPath):
 # @description 快速压缩图片
 ##########################################
 if __name__=='__main__':  
-    
+    #压缩比率
+    compressRatio = 1.1
+    #是否建表标识
     createTableFlag = True
     #Create Connection to INSERT COMPRESS IMAGES INFO TO DATABASE
     cx = sqlite3.connect("./database.db")
