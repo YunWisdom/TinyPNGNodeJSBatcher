@@ -4,7 +4,17 @@ import os
 import logging
 import sqlite3
 from PIL import ImageFile
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
+
+#全局变量 数据库链接
+global cx 
+
+#全局变量 数据库链接游标
+global cu
+
+#全局变量 创建表单标识
+global createTableFlag 
 
 ##########################################
 # @function 判断是否为图片
@@ -34,7 +44,7 @@ def picIsBig(srcFile):
 ##########################################
 def picIsCompressed(basename , dstFile):
     if selectTableCompressLog(basename , dstFile):
-        print(" images is already compressed which named " + basename)
+        print(" images is already compressed which named " + basename + ' or path equals ' + dstFile)
         return True
     else:
         return False            
@@ -44,14 +54,19 @@ def picIsCompressed(basename , dstFile):
 # @description 如果图片信息存在于数据库中，则表明图片被压缩过，不需要再次压缩
 ##########################################
 def createTableCompressLog():
-    try:
-        create_tb_cmd='''
-        create table compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)
-        '''
-        #主要就是上面的语句
-        cu.execute(create_tb_cmd) 
-    except:
-        logging.info("")
+    #全局变量 创建表单标识
+    global createTableFlag 
+    if createTableFlag :
+        try:
+            create_tb_cmd='''
+            create table compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)
+            '''
+            #主要就是上面的语句
+            cu.execute(create_tb_cmd) 
+            createTableFlag = False
+        except:
+            logging.info(" table compresslog maybe exist , create table compresslog fail ")
+            createTableFlag = False
 
 ##########################################
 # @function 查询表单中图片信息是否存在
@@ -154,6 +169,8 @@ def compressImage(srcPath,dstPath):
 # @description 快速压缩图片
 ##########################################
 if __name__=='__main__':  
+    
+    createTableFlag = True
     #Create Connection to INSERT COMPRESS IMAGES INFO TO DATABASE
     cx = sqlite3.connect("./database.db")
     #获取游标
