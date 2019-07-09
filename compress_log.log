@@ -1,0 +1,560 @@
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\1.jpg dstFile: C:/Workspace/Images\TEMP000\1.jpg
+INFO:root:filename: 1 fileSuffix: .jpg
+INFO:root:originally size:154.61328125
+INFO:root:compressed size:173.9501953125  C:/Workspace/Images\TEMP000\1.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg dstFile: C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg
+INFO:root:filename: 19d53f153ff1117e28d9034b95242aeb fileSuffix: .jpg
+INFO:root:originally size:121.662109375
+INFO:root:compressed size:119.6767578125  C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\24.jpg dstFile: C:/Workspace/Images\TEMP000\24.jpg
+INFO:root:filename: 24 fileSuffix: .jpg
+INFO:root:originally size:277.5693359375
+INFO:root:compressed size:352.736328125  C:/Workspace/Images\TEMP000\24.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg dstFile: C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg
+INFO:root:filename: 2b70c5f4c4c7789b8b75c8730f2d65f8 fileSuffix: .jpg
+INFO:root:originally size:127.50390625
+INFO:root:compressed size:149.2578125  C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg dstFile: C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg
+INFO:root:filename: 6b36098291a849b1615f751d57141c6e fileSuffix: .jpg
+INFO:root:originally size:173.9443359375
+INFO:root:compressed size:224.94921875  C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg
+INFO:root:filename: AddoElephants_ZH-CN13744097225_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:211.1484375
+INFO:root:compressed size:191.28125  C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg
+INFO:root:filename: BadlandsHeadlights_ZH-CN11986873693_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:338.1552734375
+INFO:root:compressed size:452.14453125  C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg
+INFO:root:filename: BangkokNightMarket_ZH-CN11275629598_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:238.748046875
+INFO:root:compressed size:318.77734375  C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg
+INFO:root:filename: BathurstBay_ZH-CN15704350271_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:319.56640625
+INFO:root:compressed size:405.8544921875  C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg
+INFO:root:filename: Bittermelon_ZH-CN13629728807_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:151.0830078125
+INFO:root:compressed size:136.203125  C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg
+INFO:root:filename: BloodMoonVideo_ZH-CN9099765312_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:103.2412109375
+INFO:root:compressed size:91.8310546875  C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg
+INFO:root:filename: BluePondJapan_ZH-CN9068810300_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:205.50390625
+INFO:root:compressed size:177.4150390625  C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg
+INFO:root:filename: Castelluccio_ZH-CN13949453635_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:292.697265625
+INFO:root:compressed size:407.779296875  C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg
+INFO:root:filename: CathedralCove_ZH-CN11007944088_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:184.505859375
+INFO:root:compressed size:199.228515625  C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg
+INFO:root:filename: ChajnantorPlateau_ZH-CN12301284682_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:230.3662109375
+INFO:root:compressed size:311.59375  C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg
+INFO:root:filename: ChicagoHarborLH_ZH-CN9974330969_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:235.2080078125
+INFO:root:compressed size:298.09375  C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg
+INFO:root:filename: CoraciasGarrulus_ZH-CN8070892801_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:165.244140625
+INFO:root:compressed size:143.1318359375  C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg
+INFO:root:filename: DiamondHead_ZH-CN8551687099_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:268.119140625
+INFO:root:compressed size:361.5693359375  C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg
+INFO:root:filename: DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:247.8095703125
+INFO:root:compressed size:335.5927734375  C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\fgg_003.jpg dstFile: C:/Workspace/Images\TEMP001\fgg_003.jpg
+INFO:root:filename: fgg_003 fileSuffix: .jpg
+INFO:root:originally size:118.376953125
+INFO:root:compressed size:93.4228515625  C:/Workspace/Images\TEMP001\fgg_003.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg
+INFO:root:filename: GFLions_ZH-CN10964337001_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:281.1884765625
+INFO:root:compressed size:380.6826171875  C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg
+INFO:root:filename: HubeiSinkhole_ZH-CN8831229647_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:187.34375
+INFO:root:compressed size:144.53125  C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg
+INFO:root:filename: ISSLondon_ZH-CN10573587286_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:323.8974609375
+INFO:root:compressed size:504.107421875  C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg
+INFO:root:filename: KansasCropCircles_ZH-CN9416992875_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:303.810546875
+INFO:root:compressed size:403.763671875  C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg
+INFO:root:filename: KenaiFjordsHumpback_ZH-CN10219728807_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:200.525390625
+INFO:root:compressed size:186.087890625  C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg
+INFO:root:filename: KerichoTea_ZH-CN7126476900_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:300.720703125
+INFO:root:compressed size:417.0673828125  C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg
+INFO:root:filename: KohPanyi_ZH-CN12194565147_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:248.2646484375
+INFO:root:compressed size:287.0908203125  C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg
+INFO:root:filename: MahoBayPalms_ZH-CN10739743006_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:339.4248046875
+INFO:root:compressed size:528.2373046875  C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg
+INFO:root:filename: MaracanaFireworks_ZH-CN9834580695_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:224.09375
+INFO:root:compressed size:236.7421875  C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg
+INFO:root:filename: MarSaba_ZH-CN12470933866_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:339.298828125
+INFO:root:compressed size:434.08203125  C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg
+INFO:root:filename: MochoPuma_ZH-CN14722409029_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:314.9423828125
+INFO:root:compressed size:434.4482421875  C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg
+INFO:root:filename: photo-1557162471-8752b8dd92f9 fileSuffix: .jpg
+INFO:root:originally size:104.3466796875
+INFO:root:compressed size:138.6513671875  C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg
+INFO:root:filename: photo-1557496866-e27ec3a7e4ef fileSuffix: .jpg
+INFO:root:originally size:132.76171875
+INFO:root:compressed size:151.66796875  C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg
+INFO:root:filename: photo-1557626204-59dd03fd2d31 fileSuffix: .jpg
+INFO:root:originally size:86.015625
+INFO:root:compressed size:98.2900390625  C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg
+INFO:root:filename: photo-1557784873-df9d3dcdf936 fileSuffix: .jpg
+INFO:root:originally size:73.0341796875
+INFO:root:compressed size:85.0078125  C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg
+INFO:root:filename: photo-1559827260-dc66d52bef19 fileSuffix: .jpg
+INFO:root:originally size:58.1533203125
+INFO:root:compressed size:59.8017578125  C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg
+INFO:root:filename: photo-1471476982590-a2e02d8544dd fileSuffix: .jpg
+INFO:root:originally size:50.0439453125
+INFO:root:compressed size:59.462890625  C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg
+INFO:root:filename: photo-1472145246862-b24cf25c4a36 fileSuffix: .jpg
+INFO:root:originally size:48.1005859375
+INFO:root:compressed size:54.8759765625  C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg
+INFO:root:filename: photo-1479819893311-9c362f79976e fileSuffix: .jpg
+INFO:root:originally size:105.5048828125
+INFO:root:compressed size:120.7490234375  C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg
+INFO:root:filename: photo-1490131681458-a08259e7627d fileSuffix: .jpg
+INFO:root:originally size:28.0205078125
+INFO:root:compressed size:35.640625  C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg
+INFO:root:filename: photo-1517921076612-169b401c825e fileSuffix: .jpg
+INFO:root:originally size:51.52734375
+INFO:root:compressed size:59.52734375  C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg
+INFO:root:filename: photo-1560311144-602d9657890b fileSuffix: .jpg
+INFO:root:originally size:92.53125
+INFO:root:compressed size:107.833984375  C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg
+INFO:root:filename: photo-1560345573-9f453083c335 fileSuffix: .jpg
+INFO:root:originally size:111.099609375
+INFO:root:compressed size:126.595703125  C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg
+INFO:root:filename: photo-1560773526-435221de2527 fileSuffix: .jpg
+INFO:root:originally size:48.5390625
+INFO:root:compressed size:56.4130859375  C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg
+INFO:root:filename: photo-1562371803-8c278cb58dba fileSuffix: .jpg
+INFO:root:originally size:58.1083984375
+INFO:root:compressed size:66.1376953125  C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg
+INFO:root:filename: photo-1562386130-926081dc4fbf fileSuffix: .jpg
+INFO:root:originally size:47.5546875
+INFO:root:compressed size:54.1708984375  C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\Q7V3VMc.jpg dstFile: C:/Workspace/Images\TEMP002\Q7V3VMc.jpg
+INFO:root:filename: Q7V3VMc fileSuffix: .jpg
+INFO:root:originally size:39.818359375
+INFO:root:compressed size:56.7568359375  C:/Workspace/Images\TEMP002\Q7V3VMc.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg
+INFO:root:filename: RoyaleNP_ZH-CN7784462387_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:290.595703125
+INFO:root:compressed size:211.2509765625  C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg
+INFO:root:filename: SachsischeSchweiz_ZH-CN10640382929_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:298.115234375
+INFO:root:compressed size:351.6416015625  C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg
+INFO:root:filename: SchonbrunnPalace_ZH-CN11907034371_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:283.5595703125
+INFO:root:compressed size:385.6904296875  C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg
+INFO:root:filename: Shaiqiu_ZH-CN11319335057_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:319.8427734375
+INFO:root:compressed size:500.416015625  C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg
+INFO:root:filename: SunsetDartmoor_ZH-CN8298298012_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:218.1376953125
+INFO:root:compressed size:233.8583984375  C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\th.jpg dstFile: C:/Workspace/Images\TEMP002\th.jpg
+INFO:root:filename: th fileSuffix: .jpg
+INFO:root:originally size:338.3466796875
+INFO:root:compressed size:442.9609375  C:/Workspace/Images\TEMP002\th.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg
+INFO:root:filename: TowerBridgeVideo_ZH-CN9340207782_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:225.6494140625
+INFO:root:compressed size:292.6025390625  C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg
+INFO:root:filename: ValleyofYzer_ZH-CN8001552912_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:180.564453125
+INFO:root:compressed size:168.4921875  C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg
+INFO:root:filename: WatchmanPeak_ZH-CN11491247109_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:338.9267578125
+INFO:root:compressed size:439.1728515625  C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg
+INFO:root:filename: WhiteSwan_ZH-CN12970644283_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:246.3935546875
+INFO:root:compressed size:197.056640625  C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg
+INFO:root:filename: WildGardens_ZH-CN12707941302_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:338.89453125
+INFO:root:compressed size:448.626953125  C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg
+INFO:root:filename: ZanzibarRedColobus_ZH-CN11792109900_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:251.1416015625
+INFO:root:compressed size:334.4697265625  C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\1.jpg dstFile: C:/Workspace/Images\TEMP000\1.jpg
+INFO:root:filename: 1 fileSuffix: .jpg
+INFO:root:originally size:128.4326171875
+INFO:root:compressed size:106.8203125  C:/Workspace/Images\TEMP000\1.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg dstFile: C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg
+INFO:root:filename: 19d53f153ff1117e28d9034b95242aeb fileSuffix: .jpg
+INFO:root:originally size:119.6767578125
+INFO:root:compressed size:102.6416015625  C:/Workspace/Images\TEMP000\19d53f153ff1117e28d9034b95242aeb.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\24.jpg dstFile: C:/Workspace/Images\TEMP000\24.jpg
+INFO:root:filename: 24 fileSuffix: .jpg
+INFO:root:originally size:352.736328125
+INFO:root:compressed size:317.41796875  C:/Workspace/Images\TEMP000\24.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg dstFile: C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg
+INFO:root:filename: 2b70c5f4c4c7789b8b75c8730f2d65f8 fileSuffix: .jpg
+INFO:root:originally size:149.2578125
+INFO:root:compressed size:136.8740234375  C:/Workspace/Images\TEMP000\2b70c5f4c4c7789b8b75c8730f2d65f8.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg dstFile: C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg
+INFO:root:filename: 6b36098291a849b1615f751d57141c6e fileSuffix: .jpg
+INFO:root:originally size:224.94921875
+INFO:root:compressed size:210.900390625  C:/Workspace/Images\TEMP000\6b36098291a849b1615f751d57141c6e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg
+INFO:root:filename: AddoElephants_ZH-CN13744097225_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:191.28125
+INFO:root:compressed size:161.095703125  C:/Workspace/Images\TEMP000\AddoElephants_ZH-CN13744097225_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg
+INFO:root:filename: BadlandsHeadlights_ZH-CN11986873693_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:452.14453125
+INFO:root:compressed size:397.154296875  C:/Workspace/Images\TEMP000\BadlandsHeadlights_ZH-CN11986873693_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg
+INFO:root:filename: BangkokNightMarket_ZH-CN11275629598_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:318.77734375
+INFO:root:compressed size:302.3349609375  C:/Workspace/Images\TEMP000\BangkokNightMarket_ZH-CN11275629598_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg
+INFO:root:filename: BathurstBay_ZH-CN15704350271_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:405.8544921875
+INFO:root:compressed size:358.20703125  C:/Workspace/Images\TEMP000\BathurstBay_ZH-CN15704350271_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg
+INFO:root:filename: Bittermelon_ZH-CN13629728807_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:136.203125
+INFO:root:compressed size:117.0537109375  C:/Workspace/Images\TEMP000\Bittermelon_ZH-CN13629728807_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg
+INFO:root:filename: BloodMoonVideo_ZH-CN9099765312_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:91.8310546875
+INFO:root:compressed size:76.1337890625  C:/Workspace/Images\TEMP000\BloodMoonVideo_ZH-CN9099765312_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg
+INFO:root:filename: BluePondJapan_ZH-CN9068810300_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:177.4150390625
+INFO:root:compressed size:151.4931640625  C:/Workspace/Images\TEMP000\BluePondJapan_ZH-CN9068810300_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg
+INFO:root:filename: Castelluccio_ZH-CN13949453635_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:407.779296875
+INFO:root:compressed size:373.46875  C:/Workspace/Images\TEMP000\Castelluccio_ZH-CN13949453635_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg
+INFO:root:filename: CathedralCove_ZH-CN11007944088_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:199.228515625
+INFO:root:compressed size:197.5986328125  C:/Workspace/Images\TEMP000\CathedralCove_ZH-CN11007944088_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg
+INFO:root:filename: ChajnantorPlateau_ZH-CN12301284682_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:311.59375
+INFO:root:compressed size:303.703125  C:/Workspace/Images\TEMP000\ChajnantorPlateau_ZH-CN12301284682_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg
+INFO:root:filename: ChicagoHarborLH_ZH-CN9974330969_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:298.09375
+INFO:root:compressed size:274.1552734375  C:/Workspace/Images\TEMP000\ChicagoHarborLH_ZH-CN9974330969_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg
+INFO:root:filename: CoraciasGarrulus_ZH-CN8070892801_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:143.1318359375
+INFO:root:compressed size:120.5087890625  C:/Workspace/Images\TEMP000\CoraciasGarrulus_ZH-CN8070892801_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg
+INFO:root:filename: DiamondHead_ZH-CN8551687099_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:361.5693359375
+INFO:root:compressed size:337.673828125  C:/Workspace/Images\TEMP001\DiamondHead_ZH-CN8551687099_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg
+INFO:root:filename: DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:335.5927734375
+INFO:root:compressed size:318.9609375  C:/Workspace/Images\TEMP001\DwarfFlyingSquirrel_ZH-CN11085553814_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\fgg_003.jpg dstFile: C:/Workspace/Images\TEMP001\fgg_003.jpg
+INFO:root:filename: fgg_003 fileSuffix: .jpg
+INFO:root:originally size:93.4228515625
+INFO:root:compressed size:79.162109375  C:/Workspace/Images\TEMP001\fgg_003.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg
+INFO:root:filename: GFLions_ZH-CN10964337001_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:380.6826171875
+INFO:root:compressed size:354.736328125  C:/Workspace/Images\TEMP001\GFLions_ZH-CN10964337001_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg
+INFO:root:filename: HubeiSinkhole_ZH-CN8831229647_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:144.53125
+INFO:root:compressed size:120.962890625  C:/Workspace/Images\TEMP001\HubeiSinkhole_ZH-CN8831229647_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg
+INFO:root:filename: ISSLondon_ZH-CN10573587286_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:504.107421875
+INFO:root:compressed size:483.3994140625  C:/Workspace/Images\TEMP001\ISSLondon_ZH-CN10573587286_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg
+INFO:root:filename: KansasCropCircles_ZH-CN9416992875_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:403.763671875
+INFO:root:compressed size:393.966796875  C:/Workspace/Images\TEMP001\KansasCropCircles_ZH-CN9416992875_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg
+INFO:root:filename: KenaiFjordsHumpback_ZH-CN10219728807_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:186.087890625
+INFO:root:compressed size:157.23046875  C:/Workspace/Images\TEMP001\KenaiFjordsHumpback_ZH-CN10219728807_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg
+INFO:root:filename: KerichoTea_ZH-CN7126476900_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:417.0673828125
+INFO:root:compressed size:384.3681640625  C:/Workspace/Images\TEMP001\KerichoTea_ZH-CN7126476900_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg
+INFO:root:filename: KohPanyi_ZH-CN12194565147_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:287.0908203125
+INFO:root:compressed size:264.9306640625  C:/Workspace/Images\TEMP001\KohPanyi_ZH-CN12194565147_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg
+INFO:root:filename: MahoBayPalms_ZH-CN10739743006_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:528.2373046875
+INFO:root:compressed size:501.6689453125  C:/Workspace/Images\TEMP001\MahoBayPalms_ZH-CN10739743006_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg
+INFO:root:filename: MaracanaFireworks_ZH-CN9834580695_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:236.7421875
+INFO:root:compressed size:222.07421875  C:/Workspace/Images\TEMP001\MaracanaFireworks_ZH-CN9834580695_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg
+INFO:root:filename: MarSaba_ZH-CN12470933866_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:434.08203125
+INFO:root:compressed size:387.1474609375  C:/Workspace/Images\TEMP001\MarSaba_ZH-CN12470933866_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg
+INFO:root:filename: MochoPuma_ZH-CN14722409029_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:434.4482421875
+INFO:root:compressed size:402.3544921875  C:/Workspace/Images\TEMP001\MochoPuma_ZH-CN14722409029_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg
+INFO:root:filename: photo-1557162471-8752b8dd92f9 fileSuffix: .jpg
+INFO:root:originally size:138.6513671875
+INFO:root:compressed size:131.8447265625  C:/Workspace/Images\TEMP001\photo-1557162471-8752b8dd92f9.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg
+INFO:root:filename: photo-1557496866-e27ec3a7e4ef fileSuffix: .jpg
+INFO:root:originally size:151.66796875
+INFO:root:compressed size:137.4599609375  C:/Workspace/Images\TEMP001\photo-1557496866-e27ec3a7e4ef.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg
+INFO:root:filename: photo-1557626204-59dd03fd2d31 fileSuffix: .jpg
+INFO:root:originally size:98.2900390625
+INFO:root:compressed size:94.111328125  C:/Workspace/Images\TEMP001\photo-1557626204-59dd03fd2d31.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg
+INFO:root:filename: photo-1557784873-df9d3dcdf936 fileSuffix: .jpg
+INFO:root:originally size:85.0078125
+INFO:root:compressed size:79.982421875  C:/Workspace/Images\TEMP001\photo-1557784873-df9d3dcdf936.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg dstFile: C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg
+INFO:root:filename: photo-1559827260-dc66d52bef19 fileSuffix: .jpg
+INFO:root:originally size:59.8017578125
+INFO:root:compressed size:59.8154296875  C:/Workspace/Images\TEMP001\photo-1559827260-dc66d52bef19.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg
+INFO:root:filename: photo-1471476982590-a2e02d8544dd fileSuffix: .jpg
+INFO:root:originally size:59.462890625
+INFO:root:compressed size:59.205078125  C:/Workspace/Images\TEMP002\photo-1471476982590-a2e02d8544dd.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg
+INFO:root:filename: photo-1472145246862-b24cf25c4a36 fileSuffix: .jpg
+INFO:root:originally size:54.8759765625
+INFO:root:compressed size:54.88671875  C:/Workspace/Images\TEMP002\photo-1472145246862-b24cf25c4a36.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg
+INFO:root:filename: photo-1479819893311-9c362f79976e fileSuffix: .jpg
+INFO:root:originally size:120.7490234375
+INFO:root:compressed size:111.5234375  C:/Workspace/Images\TEMP002\photo-1479819893311-9c362f79976e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg
+INFO:root:filename: photo-1490131681458-a08259e7627d fileSuffix: .jpg
+INFO:root:originally size:35.640625
+INFO:root:compressed size:35.619140625  C:/Workspace/Images\TEMP002\photo-1490131681458-a08259e7627d.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg
+INFO:root:filename: photo-1517921076612-169b401c825e fileSuffix: .jpg
+INFO:root:originally size:59.52734375
+INFO:root:compressed size:59.501953125  C:/Workspace/Images\TEMP002\photo-1517921076612-169b401c825e.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg
+INFO:root:filename: photo-1560311144-602d9657890b fileSuffix: .jpg
+INFO:root:originally size:107.833984375
+INFO:root:compressed size:100.28125  C:/Workspace/Images\TEMP002\photo-1560311144-602d9657890b.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg
+INFO:root:filename: photo-1560345573-9f453083c335 fileSuffix: .jpg
+INFO:root:originally size:126.595703125
+INFO:root:compressed size:117.634765625  C:/Workspace/Images\TEMP002\photo-1560345573-9f453083c335.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg
+INFO:root:filename: photo-1560773526-435221de2527 fileSuffix: .jpg
+INFO:root:originally size:56.4130859375
+INFO:root:compressed size:56.3984375  C:/Workspace/Images\TEMP002\photo-1560773526-435221de2527.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg
+INFO:root:filename: photo-1562371803-8c278cb58dba fileSuffix: .jpg
+INFO:root:originally size:66.1376953125
+INFO:root:compressed size:66.1357421875  C:/Workspace/Images\TEMP002\photo-1562371803-8c278cb58dba.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg dstFile: C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg
+INFO:root:filename: photo-1562386130-926081dc4fbf fileSuffix: .jpg
+INFO:root:originally size:54.1708984375
+INFO:root:compressed size:51.9580078125  C:/Workspace/Images\TEMP002\photo-1562386130-926081dc4fbf.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\Q7V3VMc.jpg dstFile: C:/Workspace/Images\TEMP002\Q7V3VMc.jpg
+INFO:root:filename: Q7V3VMc fileSuffix: .jpg
+INFO:root:originally size:56.7568359375
+INFO:root:compressed size:56.7490234375  C:/Workspace/Images\TEMP002\Q7V3VMc.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg
+INFO:root:filename: RoyaleNP_ZH-CN7784462387_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:211.2509765625
+INFO:root:compressed size:177.8935546875  C:/Workspace/Images\TEMP002\RoyaleNP_ZH-CN7784462387_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg
+INFO:root:filename: SachsischeSchweiz_ZH-CN10640382929_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:351.6416015625
+INFO:root:compressed size:324.4912109375  C:/Workspace/Images\TEMP002\SachsischeSchweiz_ZH-CN10640382929_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg
+INFO:root:filename: SchonbrunnPalace_ZH-CN11907034371_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:385.6904296875
+INFO:root:compressed size:359.162109375  C:/Workspace/Images\TEMP002\SchonbrunnPalace_ZH-CN11907034371_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg
+INFO:root:filename: Shaiqiu_ZH-CN11319335057_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:500.416015625
+INFO:root:compressed size:478.9111328125  C:/Workspace/Images\TEMP002\Shaiqiu_ZH-CN11319335057_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg
+INFO:root:filename: SunsetDartmoor_ZH-CN8298298012_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:233.8583984375
+INFO:root:compressed size:228.6318359375  C:/Workspace/Images\TEMP002\SunsetDartmoor_ZH-CN8298298012_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\th.jpg dstFile: C:/Workspace/Images\TEMP002\th.jpg
+INFO:root:filename: th fileSuffix: .jpg
+INFO:root:originally size:442.9609375
+INFO:root:compressed size:397.345703125  C:/Workspace/Images\TEMP002\th.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg
+INFO:root:filename: TowerBridgeVideo_ZH-CN9340207782_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:292.6025390625
+INFO:root:compressed size:287.6220703125  C:/Workspace/Images\TEMP002\TowerBridgeVideo_ZH-CN9340207782_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg
+INFO:root:filename: ValleyofYzer_ZH-CN8001552912_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:168.4921875
+INFO:root:compressed size:143.0810546875  C:/Workspace/Images\TEMP002\ValleyofYzer_ZH-CN8001552912_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg
+INFO:root:filename: WatchmanPeak_ZH-CN11491247109_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:439.1728515625
+INFO:root:compressed size:393.7197265625  C:/Workspace/Images\TEMP002\WatchmanPeak_ZH-CN11491247109_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg
+INFO:root:filename: WhiteSwan_ZH-CN12970644283_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:197.056640625
+INFO:root:compressed size:158.09375  C:/Workspace/Images\TEMP002\WhiteSwan_ZH-CN12970644283_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg
+INFO:root:filename: WildGardens_ZH-CN12707941302_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:448.626953125
+INFO:root:compressed size:397.416015625  C:/Workspace/Images\TEMP002\WildGardens_ZH-CN12707941302_1920x1080.jpg compressed succeeded
+INFO:root:srcFile: C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg dstFile: C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg
+INFO:root:filename: ZanzibarRedColobus_ZH-CN11792109900_1920x1080 fileSuffix: .jpg
+INFO:root:originally size:334.4697265625
+INFO:root:compressed size:317.525390625  C:/Workspace/Images\TEMP002\ZanzibarRedColobus_ZH-CN11792109900_1920x1080.jpg compressed succeeded
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root: images is not compressed which named 1.jpg
+INFO:root:
+INFO:root:
+INFO:root: images is not compressed which named 1.jpg
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:
+INFO:root:

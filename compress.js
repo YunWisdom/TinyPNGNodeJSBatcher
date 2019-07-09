@@ -11,56 +11,69 @@ global.eventCompress = new events.EventEmitter();
 
 function tinifyCompress(srcfile, desfile) {
 
-    fs.readFile(srcfile, function(err, sourceData) {
-        if (err) throw err;
+    //压缩前文件大小
+    let imageSize = fs.statSync(srcfile).size
 
-        console.log('compress started.' + srcfile);
+    //只压缩300KB以上的图片
+    if(imageSize >= 300000){
 
-        tinify.fromBuffer(sourceData).toBuffer(function(err, resultData) {
-            // if (err) throw err;
-            // fs.writeFileSync(desfile, resultData);
+        fs.readFile(srcfile, function(err, sourceData) {
+        
+            if (err) throw err;
 
-            if (err instanceof tinify.ConnectionError ||
-                err instanceof tinify.ServerError) {
-                console.log('compress failed.' + srcfile + ', recompress.');
-                tinifyCompress(srcfile, desfile);
-                return;
-            } else if (err instanceof tinify.ClientError ||
-                err instanceof tinify.AccountError) {
+            console.log(' compress started.' + srcfile);
 
-                if (err.message.indexOf('Your monthly limit has been exceeded') >= 0) {
-                    /*该账户数目超过，换下一个key重试*/
-                    //查看是否还有可用的账户
-                    if (global.recomputingkey === false) {
-                        //尚未在本次换过key
-                        global.recomputingkey = true;
-                        global.keyindex++;
-                        if (global.keyindex < global.key.length) {
-                            console.log('use no' + global.keyindex + ' account key.');
-                            tinify.key = global.key[global.keyindex];
-                            tinifyCompress(srcfile, desfile);
+            tinify.fromBuffer(sourceData).toBuffer(function(err, resultData) {
+                // if (err) throw err;
+                // fs.writeFileSync(desfile, resultData);
+
+                if (err instanceof tinify.ConnectionError ||
+                    err instanceof tinify.ServerError) {
+                    console.log(' compress failed.' + srcfile + ', recompress.');
+                    tinifyCompress(srcfile, desfile);
+                    return;
+                } else if (err instanceof tinify.ClientError ||
+                    err instanceof tinify.AccountError) {
+
+                    if (err.message.indexOf(' Your monthly limit has been exceeded') >= 0) {
+                        /*该账户数目超过，换下一个key重试*/
+                        //查看是否还有可用的账户
+                        if (global.recomputingkey === false) {
+                            //尚未在本次换过key
+                            global.recomputingkey = true;
+                            global.keyindex++;
+                            if (global.keyindex < global.key.length) {
+                                console.log(' use no' + global.keyindex + ' account key.');
+                                tinify.key = global.key[global.keyindex];
+                                tinifyCompress(srcfile, desfile);
+                            } else {
+                                console.log(' no valide account.');
+                                process.exit();
+                            }
                         } else {
-                            console.log('no valide account.');
-                            process.exit();
+                            //已经在本次换过key
+                            tinifyCompress(srcfile, desfile);
                         }
-                    } else {
-                        //已经在本次换过key
-                        tinifyCompress(srcfile, desfile);
+                        return;
                     }
+
+                    console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ')');
+                    tinifyCounter(1);
                     return;
                 }
 
-                console.log('comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ')');
-                tinifyCounter(1);
-                return;
-            }
+                fs.writeFileSync(desfile, resultData);
+                let compressedSize = fs.statSync(desfile).size
+                console.log(" origin size : " + imageSize);
+                console.log(" compressed size : " + compressedSize);
+                console.log(' comressed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ')');
+                tinifyCounter(0);
 
-            fs.writeFileSync(desfile, resultData);
-            console.log('comressed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ')');
-            tinifyCounter(0);
-
+            });
         });
-    });
+
+    }
+
 }
 
 function tinifyCounter(type) {

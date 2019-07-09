@@ -33,9 +33,7 @@ function handleFile(filepath, curpath, despath, floor, preCompressFilesMap, blac
         // 文件夹不处理
         // console.log('+' + blankStr + curpath);  
     } else {
-
         // console.log('-' + blankStr + curpath);  
-
         //按照原始路径创建对应的目录
         var subdirpath = curpath.substr(filepath.length + 1);
         var newPath = despath + subdirpath;
@@ -116,7 +114,7 @@ function mkdirsSync(dirpath) {
             }
 
             if (pathtmp !== '' && !fs.existsSync('/' + pathtmp)) {
-                if (!fs.mkdirSync('/' + pathtmp)) {
+                if (!fs.mkdirSync('/' + pathtmp , { recursive: true } )) {
                     return false;
                 }
             }
