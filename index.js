@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //加载tinify图片压缩模块
+=======
+
+>>>>>>> f3971ebed019eaf29fb574bf48118fc017561d6c
 var tinify = require("./tinify");
 
 /** 
@@ -8,6 +12,7 @@ var tinify = require("./tinify");
  * @description	压缩数量用完后，会自动切换到第个key，以此类推。
  */
 global.key = [
+<<<<<<< HEAD
     "yKkuvUVjMvrkNDpbXFZGJueVQqcN5v4W",
     "QzMvROVPA9oHaWNnikFAyzHaDFhFRMPC",
     "JQ172FqwZZXL01uK0A8YhE55SLVEEOND",
@@ -78,10 +83,54 @@ global.key = [
     "zRKqUdlUE6QoBpsMhkByHTSiLiBzbLIS",
     "YemwbXEwBXono9hiGUXGvBKNazbFv1lr",
     "O9o8qsEcpTrDc07Zxovbv5xLldO7f7fA"
+=======
+	"yKkuvUVjMvrkNDpbXFZGJueVQqcN5v4W",
+	"QzMvROVPA9oHaWNnikFAyzHaDFhFRMPC",
+	"JQ172FqwZZXL01uK0A8YhE55SLVEEOND",
+	"0KsEUTD02jGbzQVoSqgI3ZlzRTlgcZdo",
+	"8avxBxQrVvEuoCZE4PnmAsNeFsjwqHqU",
+	"asXYjeCybyd4KolJwLbUWm8kaz6Afczk",
+	"w8DkoU0jWo69D8wuhIEaZT1BYDsZzomX",
+	"2yc3X7zUiHmCMorXanoBG8ShI5MoPX0y",
+	"pNEtdDVEH6Dv4Cuk08ptOV3PzzlOsQYF",
+	"meupuAOzUEIEC7mnBAreYnLo8kqSFUcs",
+	"qGCUfLaRLTqGga3yfNHm9ds5mJA2jM0J",
+	"tMaEahf5V3miIxCJ8vbGNWqWWaxCZ0O5",
+	"UEsOMZzyMFY8qGxNDy35taz66jGjMOPa",
+	"H9gNqUY6s4cv4mcUzZVKgZcOwhsUyIiu",
+	"IC2tc50yT08HGDdMUU9VMPKTC3kJf2zR",
+	"mikSOvXmssAYyt5XrDUHNPuzCjYOyeks"
+>>>>>>> f3971ebed019eaf29fb574bf48118fc017561d6c
 ];
 
 //初始化
 global.keyindex = 0;
 
 //压缩所有指定目录文件到另一个指定目录
+<<<<<<< HEAD
 tinify.compressAllFiles('C:/Workspace/Images/', 'C:/Workspace/Images/', ['build'], ['.no.png']);
+=======
+tinify.compressAllFiles(
+	'srcfolder:待压缩文件所在文件夹',
+	'dstfolder:压缩完成后文件所在文件夹', ['blockfoldername：不参与压缩文件夹名称'], ['blockkeyword：不参与压缩文件后缀']);
+//例如：tinify.compressAllFiles('/Users/alex_xq/Desktop/youku WORK/laifeng', '/Users/alex_xq/Desktop/out/', ['build'], ['.9.png']);
+
+
+//工具方法：查找所有可以压缩的文件 
+// tinify.tools_checkImages(
+// 	'srcfolder:待压缩文件所在文件夹',
+// 	'dstfolder:压缩完成后文件所在文件夹', ['blockfoldername：不参与压缩文件夹名称'], ['blockkeyword：不参与压缩文件后缀']);
+//例如：tinify.tools_checkImages('/Users/alex_xq/Desktop/youku WORK/laifeng', '/Users/alex_xq/Desktop/out/', ['build'], ['.9.png']);
+
+//工具方法：查找并拷贝所有可压缩文件 
+// tinify.tools_findImageFiles(
+// 	'srcfolder:待压缩文件所在文件夹',
+// 	'dstfolder:压缩完成后文件所在文件夹', ['blockfoldername：不参与压缩文件夹名称'], ['blockkeyword：不参与压缩文件后缀']);
+//例如：tinify.tools_findImageFiles('/Users/alex_xq/Desktop/youku WORK/laifeng', '/Users/alex_xq/Desktop/out/', ['build'], ['.9.png']);
+
+//工具方法：反向将压缩后的文件覆盖原来对等目录结构的文件 
+// tinify.tools_overWriteFiles(
+// 	'srcfolder:待压缩文件所在文件夹',
+// 	'dstfolder:压缩完成后文件所在文件夹', ['blockfoldername：不参与压缩文件夹名称'], ['blockkeyword：不参与压缩文件后缀']);
+//例如：tinify.tools_overWriteFiles('/Users/alex_xq/Desktop/out', '/Users/alex_xq/Desktop/youku WORK/laifeng/', ['build'], ['.9.png']);
+>>>>>>> f3971ebed019eaf29fb574bf48118fc017561d6c
