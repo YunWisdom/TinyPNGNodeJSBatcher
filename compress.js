@@ -13,33 +13,47 @@ var counter = 0;
 var successcounter = 0;
 var failedcounter = 0;
 var createTableFlag = true;
+var originSize = 0;
 
+global.execflag = true;
 global.varA = 0;
 global.recomputingkey = false;
 global.eventCompress = new events.EventEmitter();
 
 function tinifyCompress(srcfile, desfile) {
 
-    //压缩前文件大小
-    let imageSize = fs.statSync(srcfile).size
+    if (!global.execflag) {
 
-    //只压缩300KB以上的图片，且未压缩过的图片
-    if (imageSize >= 0) {
-
-        //如果图片没有被压缩过，则执行压缩操作
-        picIsCompress(srcfile, desfile, function(flag) {
-            if (!flag) {
-                tinifyExec(srcfile, desfile, imageSize);
-            } else {
-                console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ') caused by original image is already compressed ');
-                tinifyCounter(1);
-            }
-        })
+        return;
 
     } else {
-        console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ') caused by original image is too small ');
-        tinifyCounter(1);
+
+        //压缩前文件大小
+        let imageSize = fs.statSync(srcfile).size;
+        //计算原文件合集大小
+        originSize = originSize + imageSize;
+
+        //只压缩0KB以上的图片，且未压缩过的图片
+        if (imageSize >= 0) {
+
+            //如果图片没有被压缩过，则执行压缩操作
+            picIsCompress(srcfile, desfile, function(flag) {
+                if (!flag) {
+                    tinifyExec(srcfile, desfile, imageSize);
+                } else {
+                    console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ') caused by original image is already compressed ');
+                    tinifyCounter(1);
+                }
+            })
+
+        } else {
+            console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ') caused by original image is too small ');
+            tinifyCounter(1);
+        }
+
+        return;
     }
+
 }
 
 /**
@@ -128,8 +142,8 @@ function tinifyCounter(type) {
 
     counter++;
     global.eventCompress.emit('compressFinish');
-
-    if (counter === global.varA) {
+    if (counter >= global.varA) {
+        global.execflag = false;
         global.eventCompress.emit('FinishAll');
         var result = "result  {success:" + successcounter + "/" + counter + ",failed:" + failedcounter + "/" + counter + "}";
         console.log(result);
