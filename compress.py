@@ -59,7 +59,7 @@ def createTableCompressLog():
     if createTableFlag :
         try:
             create_tb_cmd='''
-            create table compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)
+            create table if not exists compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)
             '''
             #主要就是上面的语句
             cu.execute(create_tb_cmd) 

@@ -60,8 +60,8 @@ DB.SqliteDB.prototype.insertData = function(sql, objects) {  
 /**
  * @function 查询函数
  */
-DB.SqliteDB.prototype.queryData = function(sql, callback) {  
-    DB.db.all(sql, function(err, rows) {    
+DB.SqliteDB.prototype.queryData = function(sql, param, callback) {  
+    DB.db.all(sql, param, function(err, rows) {    
         if (null != err) {      
             DB.printErrorInfo(err);      
             return;    
@@ -72,6 +72,22 @@ DB.SqliteDB.prototype.queryData = function(sql, callback) {  
         }  
     });
 }; 
+
+/**
+ * @function 查询函数
+ */
+DB.SqliteDB.prototype.getData = function(sql, param, callback) {
+    DB.db.get(sql, param, (err, rows) => {
+        if (null != err) {      
+            DB.printErrorInfo(err);      
+            return;    
+        }     
+        //Deal query data.
+        if (callback) {      
+            callback(rows);    
+        }  
+    });
+}
 
 /**
  * @function 执行SQL函数 
