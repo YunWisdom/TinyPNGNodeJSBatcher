@@ -3,6 +3,7 @@ var fs = require("fs");
 var counter = 0;
 var successcounter = 0;
 var failedcounter = 0;
+
 global.varA = 0;
 global.recomputingkey = false;
 
@@ -15,10 +16,10 @@ function tinifyCompress(srcfile, desfile) {
     let imageSize = fs.statSync(srcfile).size
 
     //只压缩300KB以上的图片
-    if(imageSize >= 300000){
+    if (imageSize >= 300000 && !picIsCompress(srcfile, desfile)) {
 
         fs.readFile(srcfile, function(err, sourceData) {
-        
+
             if (err) throw err;
 
             console.log(' compress started.' + srcfile);
@@ -72,10 +73,17 @@ function tinifyCompress(srcfile, desfile) {
             });
         });
 
+    } else {
+        console.log(' comressed failed:' + (counter + 1) + '/' + global.varA + '(' + desfile + ') caused by original image is too small or is already compressed ');
+        tinifyCounter(1);
     }
 
 }
 
+/**
+ * @function 压缩统计函数
+ * @param type 类型 0 压缩成功 1 压缩失败
+ */
 function tinifyCounter(type) {
     switch (type) {
         case 0:
@@ -87,14 +95,78 @@ function tinifyCounter(type) {
         default:
             break;
     }
-    counter++;
 
+    counter++;
     global.eventCompress.emit('compressFinish');
 
     if (counter === global.varA) {
         global.eventCompress.emit('FinishAll');
         var result = "result  {success:" + successcounter + "/" + counter + ",failed:" + failedcounter + "/" + counter + "}";
         console.log(result);
+    }
+}
+
+/**
+ * @function 判断图片是否被压缩
+ * @param filename 图片名称
+ * @param dstFile 图片压缩目的地
+ */
+function picIsCompress(filename, dstFile) {
+    return selectTableCompressLog(filename, dstFile);
+}
+
+/**
+ * @function 创建表单函数
+ */
+function createTableCompressLog() {
+    //全局变量 创建表单标识
+    if (createTableFlag) {
+        try {
+            //建表语句
+            create_tb_cmd = "create table compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)";
+            //执行建表语句
+            cu.execute(create_tb_cmd);
+            createTableFlag = false;
+        } catch (except) {
+            logging.info(" table compresslog maybe exist , create table compresslog fail ");
+            createTableFlag = false;
+        }
+    }
+}
+
+/**
+ * @function 插入表单函数
+ */
+function insertTableCompressLog(basename, filename, dstFile, dsize, osize) {
+    //进行建表语句
+    createTableCompressLog();
+    //没有数据则插入数据
+    if (!selectTableCompressLog(basename, dstFile)) {
+        //插入数据
+        cu.execute("insert into compress_nlog values('" + basename + "', '" + filename + "' , '" + dstFile + "' , " + str(dsize) + " , " + str(osize) + " , 0)");
+        //提交数据
+        cu.commit();
+    }
+
+}
+
+/**
+ * @function 查询表单函数
+ */
+function selectTableCompressLog(filename, dstFile) {
+    //进行建表语句
+    createTableCompressLog();
+    //打开游标
+    cu.execute("select * from compresslog where id = '" + basename + "'" + " or path = '" + dstFile + "'");
+    //执行查询操作
+    rows = cu.fetchall();
+
+    if (len(rows) > 0) {
+        console.log(" images is already compressed which named " + basename + ' or path equals ' + dstFile)
+        return true;
+    } else {
+        console.log(" images is not compressed which named " + basename + ' or path equals ' + dstFile)
+        return false;
     }
 }
 
