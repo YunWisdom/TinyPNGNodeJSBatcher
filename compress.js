@@ -1,5 +1,11 @@
 var tinify = require("tinify");
 var fs = require("fs");
+var sqlite3 = require('sqlite3');
+var SqliteDB = require('./sqlite.js').SqliteDB;
+
+var file = "database.db";
+var sqliteDB = new SqliteDB(file);
+
 var counter = 0;
 var successcounter = 0;
 var failedcounter = 0;
@@ -123,12 +129,12 @@ function createTableCompressLog() {
     if (createTableFlag) {
         try {
             //建表语句
-            create_tb_cmd = "create table compresslog (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)";
+            create_tb_cmd = "create table compresslog_node (id varchar(64) primary key , name varchar(64) UNIQUE , path varchar(1024) UNIQUE , size integer , org_size integer , status integer)";
             //执行建表语句
-            cu.execute(create_tb_cmd);
+            sqliteDB.createTable(create_tb_cmd);
             createTableFlag = false;
         } catch (except) {
-            logging.info(" table compresslog maybe exist , create table compresslog fail ");
+            console.log(" table compresslog_node maybe exist , create table compresslog_node fail ");
             createTableFlag = false;
         }
     }
@@ -143,9 +149,7 @@ function insertTableCompressLog(basename, filename, dstFile, dsize, osize) {
     //没有数据则插入数据
     if (!selectTableCompressLog(basename, dstFile)) {
         //插入数据
-        cu.execute("insert into compress_nlog values('" + basename + "', '" + filename + "' , '" + dstFile + "' , " + str(dsize) + " , " + str(osize) + " , 0)");
-        //提交数据
-        cu.commit();
+        sqliteDB.insertData("insert into compresslog_node values('" + basename + "', '" + filename + "' , '" + dstFile + "' , " + str(dsize) + " , " + str(osize) + " , 0)");
     }
 
 }
@@ -157,15 +161,12 @@ function selectTableCompressLog(filename, dstFile) {
     //进行建表语句
     createTableCompressLog();
     //打开游标
-    cu.execute("select * from compresslog where id = '" + basename + "'" + " or path = '" + dstFile + "'");
-    //执行查询操作
-    rows = cu.fetchall();
-
-    if (len(rows) > 0) {
-        console.log(" images is already compressed which named " + basename + ' or path equals ' + dstFile)
+    sqliteDB.queryData("select * from compresslog_node where id = '" + basename + "'" + " or path = '" + dstFile + "' ", rows);
+    if (rows.length > 0) {
+        console.log(" images is already compressed which named " + basename)
         return true;
     } else {
-        console.log(" images is not compressed which named " + basename + ' or path equals ' + dstFile)
+        console.log(" images is not compressed which named " + basename)
         return false;
     }
 }
