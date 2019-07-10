@@ -30,12 +30,10 @@ demo运行结果(工程中很多图片都已经被压缩过了，所以压缩率
 ### 实际场景中的批量压缩
 TinyPNG提供了不错的图片压缩，但是免费版本每个月只能免费压缩500张图片，而且我看到产品同学、设计同学往往都是手动的将每一张图片拖动到TinyPNG中，手动的话每次20张图片，这样很不方便，白白耗费人力耗费时间。
 
-![tinypngcomplex](http://7xox5k.com1.z0.glb.clouddn.com/tinypngcomplex.png)
 
 ### 申请TinyPNG的KEY
 https://tinypng.com/developers/subscription
 
-![getapikey](http://7xox5k.com1.z0.glb.clouddn.com/tinypnggetapikey.png)
 
 ### 解决痛点
 我们实际应用中，可能是需要对一个成型的产品里面所有图片文件统一执行压缩，而且图片可能会分散在不同的目录下，那么**TinyPNGNodeJSBatcher**就是解决这些痛点的。
